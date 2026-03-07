@@ -1,0 +1,61 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+color: white;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+body{
+  background: #000;
+}
+.navbar{
+  height: 3rem;
+  background-color: #549064;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.link{
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+.collection{
+  font-size: 2rem;
+  color: crimson;
+  text-align: center;
+
+}
+.sale{
+  display: flex;
+  background-color: #d65a5a;
+  gap: 10px;
+  flex-wrap: nowrap;
+  
+  overflow:hidden;
+
+}
+.sale p{
+    flex-shrink: 0;
+}
+.footer{
+  background-color: #df3a3a;
+  width: 100%;
+  padding: 10px;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.footer button{
+  background-color: #2e0bae;
+  padding: 10px;
+  border-radius: 10px;
+}
